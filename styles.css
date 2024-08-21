@@ -1,15 +1,45 @@
 :root {
     --light-color-1: #F5EDED;
-    --light-color-2: #E2DAD6;
-    --dark-color-1: #7FA1C3;
-    --dark-color-2: #7FA1C3;
+    --light-color-2: #E1D7B7;
+    --dark-color-1: #1E2A5E;
+    --dark-color-2: #55679C;
+    --dark-color-3: #7C93C3
 }
+
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 
 body {
-    background-color: var(--light-color-1);
-    color: var(--dark-color-1)
+    background-color: var(--light-color-2);
+    color: var(--dark-color-1);
+    margin: 10px;
+    padding: 10px
 }
 
-h1 {
-    color: var(--dark-color-2)
+
+h1, h2 {
+    text-align: left;
+    color: var(--dark-color-1);
+    line-height: 1.1;
+    padding: 8px
+}
+
+
+ul {
+    line-height: 2.8;
+    margin: 20px; 
+    font-size: 1.1em;
+}
+
+.box {
+    border: 1px solid var(--dark-color-3);
+    padding: 10px;
+    margin: 20px 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0, 0.1);
 }
