@@ -1,77 +1,43 @@
-:root {
-    --light-color-1: #F5EDED;
-    --light-color-2: #E1D7B7;
-    --dark-color-1: #1E2A5E;
-    --dark-color-2: #55679C;
-    --dark-color-3: #7C93C3
-}
-
-/* CSS Reset */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-
 body {
-    background-color: var(--light-color-2);
-    color: var(--dark-color-1);
-    margin: 10px;
-    padding: 10px
+    margin: 50;
+    padding: 50;
+    background-color: #121212;
+    color: #e0e0e0; 
+    font-family: Arial, sans-serif; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    background-color: #1e1e1e; 
+    padding: 60px;
+    border-radius: 8px;
 }
 
 
-h1, h2, h3 {
-    text-align: left;
-    color: var(--dark-color-1);
-    line-height: 1.1;
-    padding: 12px
+/* Style the button */
+button {
+    background-color: #6200ea; 
+    color: #ffffff; 
+    border: none;
+    border-radius: 6px; 
+    padding: 10px 80px;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 10px 0;
 }
 
-
-ul {
-    line-height: 2.5;
-    margin: 20px; 
-    font-size: 1.1em;
+button:hover {
+    background-color: #3700b3; 
 }
 
-img {
-    border-radius: 12px;
-    padding: 0px 0px;
-}
-
-.box {
-    border: 3px solid var(--light-color-2);
-    padding: 8px 14px;
-    margin: 20px 10px;
-    border-radius: 12px;
-    box-shadow: 2px 2px 7px rgba(0,0,0, 0.3);
-}
-
-
-.flex-container {
-    display: flex; /* Enables Flexbox layout */
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-
-.flex-item img {
-    padding: 0px;
-    margin: 0px;
-
-}
-
-.flex-item {
-    /* Flex item properties */
-    flex: 1 1 300px;
-    min-width: 240px;
-    border: 3px solid var(--light-color-2);
-    padding: 8px 14px;
-    margin: 20px 20px;
-    border-radius: 10px;
-    box-shadow: 2px 2px 7px rgba(0,0,0, 0.3);
-    box-sizing: border-box;
+p {
+    margin: 10px 0;
+    font-size: 18px;
+    padding: 4px;
 }
 
 
